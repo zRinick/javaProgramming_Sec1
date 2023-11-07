@@ -1,0 +1,5 @@
+Student_id : 2313110831
+Student Name : Phoori Chalermloy
+Major : IT
+Level : 1
+Faculty: Information Technology
