@@ -12,12 +12,12 @@ public class lab6033 {
 		int space = fullname.trim().indexOf(" ");
 		fname = fullname.substring(0,space);
 		
-		System.out.println(yyname+fname);
+		System.out.println(yyname);
 		
 	}
 	public static String abbreviatName(String fullname) {
 		int fspace = fullname.indexOf(" ");
-		int lspace = fullname.lastindexOF(" ");
+		int lspace = fullname.lastIndexOf(" ");
 		if(fspace == -1 || lspace == -1 || fspace == lspace);
 		int space = fullname.trim().indexOf(" ");
 		fname = fullname.substring(0,fspace);
@@ -25,7 +25,7 @@ public class lab6033 {
 		
 		lastname = fullname.substring(lspace+1,lspace+2);
 		
-		yoname = miname +"."+lastname+"."+fname;
+		yoname = miname.toUpperCase() +"."+lastname.toUpperCase()+"."+fname;
 		
 		return yoname;
 
